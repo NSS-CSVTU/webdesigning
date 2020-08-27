@@ -42,6 +42,8 @@ body {
 #nav-list li{
   background:orange;
   border-bottom:2px solid;
+  display: block;
+  text-align: center;
 }
 #nav-list li:nth-child(3){
   border-bottom:0;
