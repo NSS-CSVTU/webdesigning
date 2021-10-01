@@ -1,0 +1,133 @@
+/* ====================================================================Funfact Style====================================================================***/
+
+
+/* 
+.fact-counter {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 110px 0 90px;
+}
+
+.fact-counter .container {
+    max-width: 1240px;
+}
+
+.fact-counter:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fact-counter .count-outer {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.fact-counter .counter-column {
+    padding: 0px;
+}
+
+.fact-counter .inner-box {
+    position: relative;
+    padding-left: 80px;
+    margin-left: 30px;
+}
+
+.fact-counter .icon-box {
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    left: 0;
+    top: 24px;
+}
+
+.fact-counter .count-outer p {
+    position: relative;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #94c13d;
+}
+
+.fact-counter .count-outer span {
+    line-height: 50px;
+}
+
+
+/* Style two */
+
+
+/* .fact-counter.style-two {
+    background-color: #fff;
+}
+
+.fact-counter.style-two:before {
+    display: none;
+}
+
+.fact-counter.style-two .icon-box {
+    color: #94c13d;
+}
+
+.fact-counter.style-two .count-outer {
+    color: #222;
+}
+
+.fact-counter.style-two .count-outer p {
+    color: #555;
+} */
+
+
+/* ==========================================================================
+9.0 Counter Section==========================================================================*/
+
+.counter-section {
+    background-image: linear-gradient(to right, rgb(89, 89, 214), blue);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 100px 0;
+    border-radius: 30%;
+    place-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 80%;
+}
+
+.counters .counter-content {
+    display: block;
+    /* flex-direction: column; */
+    text-align: center;
+    place-content: center;
+    color: #fff;
+    left: 30%;
+}
+
+.counters .counter-content i {
+    font-size: 36px;
+}
+
+.counters .counter-content h3 {
+    font-size: 48px;
+    margin: 10px 0;
+    color: #f8b864;
+    font-weight: 600;
+}
+
+.counters .counter-content h4 {
+    font-size: 18px;
+    margin: 0;
+}
