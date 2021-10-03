@@ -7,14 +7,14 @@ function Stories() {
         <div className="stories">
           <div className="container">
             <div className="section-title text-center">
-              <h3>Announcement</h3>
+              <h3>Gallery</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
                 totam hic id nesciunt quaerat veritatis.
               </p>
             </div>
             {/* <!-----> */}
-            <div className="row">
+            <div className="row" >
               <div className="col-md-4">
                 <div className="story-box overlay shadow">
                   <div className="story-icon">

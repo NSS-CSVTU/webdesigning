@@ -6,6 +6,7 @@ import "./components/stories";
 import "./components/project";
 import "./components/counter";
 import "./components/team";
+import "./components/announcement";
 
 import Navbar from "./components/navbar";
 import Carousel from "./components/carousel";
@@ -14,17 +15,18 @@ import Stories from "./components/stories";
 import Project from "./components/project";
 import Counters from "./components/counter";
 import Team from "./components/team";
+import Announcement from "./components/announcement";
 
 function App() {
   return (
     <>
       <Navbar />
       <Carousel />
+      <Team />
       <Counters data={99786} name={"Number of colleges"} />
       {/* <Counters data={99786} name={"Number of volunteer"} />
       <Counters data={99786} name={"Number of Programme Officers"} /> */}
-      <Team />
-
+      <Announcement />
       <Aboutus />
       <Stories />
       <Project />
