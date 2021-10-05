@@ -22,14 +22,24 @@ function App() {
     <>
       <Navbar />
       <Carousel />
+      <Announcement />
+      <Aboutus />
       <Team />
       <Counters data={99786} name={"Number of colleges"} />
       {/* <Counters data={99786} name={"Number of volunteer"} />
       <Counters data={99786} name={"Number of Programme Officers"} /> */}
-      <Announcement />
-      <Aboutus />
       <Stories />
       <Project />
+      {/* navbar
+      carousal 
+      announcement | about us 
+      team
+      volunteers
+      Achievements
+      recent events
+      upcoming events
+      contact us
+      footer */}
     </>
   );
 }

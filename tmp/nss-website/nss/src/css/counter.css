@@ -104,7 +104,9 @@
     place-content: center;
     display: flex;
     flex-wrap: wrap;
-    opacity: 20%;
+    opacity: 50%;
+    text-align: center;
+    justify-content: center;
 }
 
 #counter.counter-section {
